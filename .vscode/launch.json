@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/yguin/OneDrive/Documentos/GitHub/HTML-CSS/Conceitos/Teste",
-      "program": "c:/Users/yguin/OneDrive/Documentos/GitHub/HTML-CSS/Conceitos/Teste/build/Debug/outDebug",
+      "cwd": "c:/Users/yguin/OneDrive/Documentos/GitHub/HTML-CSS",
+      "program": "c:/Users/yguin/OneDrive/Documentos/GitHub/HTML-CSS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
