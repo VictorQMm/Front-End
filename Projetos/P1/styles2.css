@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agdasima", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;                      /* 100% da altura da tela */
+    background: url('./img/img.jpg');
+    background-size: cover;              /* cobre toda a tela */
+    background-position: center;
+}
+
+.container{
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);    /* cor do contorno  . 2 para opacidade*/
+    border-radius: 10px;                             /* bordas arredondadas */
+    color: white;
+    padding: 30px 40px;                         /* 30px em cima e em baixo e 40px nas laterais */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);     /* sombra */
+    backdrop-filter: blur(50px);                 /* desfoca o fundo */
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;         /* para o icone ficar dentro do input */
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;  /* tira a borda azul do input */
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.input-box input::placeholder { /* texto de dentro do input */
+    color: #c5c5c5;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;                       /* centraliza o icone */
+    transform: translateY(-50%);    /* centraliza o icone */
+    font-size: 20px;
+}
+
+.esqueci {
+    display: flex;      /* para alinhar o texto ao centro */
+    justify-content: space-between;                 /* joga cada texto para um lado diferente*/
+}
+
+.esqueci label input{
+    accent-color: white;
+    margin-right: 5px;
+
+}
+
+.esqueci a{
+    text-decoration: none;  /* tira o sublinhado do link */
+    color: white;
+    margin: -15px o 15px; /* para afastar o texto do link */
+}
+    
+    
+.esqueci a:hover{      /* quando passar o mouse por cima do link */
+    text-decoration: underline;
+    color: white;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer; /* muda o cursor para mãozinha */
+    font-size: 16px;
+    color: #333;
+    font-weight: 600; /* negrito */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);   
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+    transition: 0.5s; /* demora 0,5s para mudar de cor */
+}
+
+
+.registro-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registro-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500; /* negrito */
+}
+
+.registro-link a:hover{
+    text-decoration: underline;
+    color: white;
+}
