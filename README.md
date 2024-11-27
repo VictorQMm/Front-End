@@ -1,2 +1,2 @@
 # HTML - CSS - JS
-Objetivo de praticar e adquirir conhecimento nessas linguagens.
+Objetivo de praticar e adquirir conhecimento em front-end em geral.
